@@ -94,7 +94,7 @@ window = Tk() # Start window
 window.geometry("1280x720")
 window.resizable(False,False)
 window.title("Countdown Timer")
-icon_path = 'C:\\Users\\aewer\\OneDrive\\Pictures\\timer.png'
+icon_path = 'images\timer.png'
 icon = Image.open(icon_path)
 icon = ImageTk.PhotoImage(icon)
 window.iconphoto(True,icon)
